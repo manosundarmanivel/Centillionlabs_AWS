@@ -1,0 +1,19 @@
+# Ignore .terraform directory
+.terraform/
+
+# Ignore any files ending with .tfstate or .tfstate.* extension
+*.tfstate
+*.tfstate.*
+
+# Ignore crash log files
+crash.log
+
+# Ignore override files as they are usually used to override resources locally and do not need to be shared
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
